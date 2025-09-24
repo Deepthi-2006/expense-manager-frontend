@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
+     base: '/expense-manager-frontend/',
   },
   resolve: {
     alias: {
